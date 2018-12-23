@@ -8,21 +8,21 @@
 ## Train
 `
 python train.py -f /path/to/your/images/folder/like/mscoco
-`
+`  
 Used MS-COCO 2014 Dataset to train.You will get your encoder and decoder .pth file.
 
 ## Encode and Decode
 ### Encode
 `
 python encoder.py --model checkpoint/encoder_epoch_00000005.pth --input /path/to/your/example.png --cuda --output ex --iterations 16
-`
+`  
 
 This will output binary codes saved in `.npz` format.
 
 ### Decode
 `
 python decoder.py --model checkpoint/encoder_epoch_00000005.pth --input /path/to/your/example.npz --cuda --output /path/to/output/folder
-`
+`  
 
 This will output images of different quality levels.
 

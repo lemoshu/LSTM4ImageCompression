@@ -37,7 +37,7 @@ Using the pictures in test_pic folder.
 ```bash
 bash test/enc_dec.sh
 ```
-*you can also use the python encoder and decoder above.
+*you can also use the encoder and decoder above.
 
 ### Encode and decode with JPEG (use `convert` from ImageMagick)
 ```bash

@@ -1,27 +1,30 @@
 # Image-Compression-based-on-LSTM-network
 *Graduation Project: Image Compression based on LSTM-pytorch implementation  
-*Jack Xu  
+*Zhe(Jack) Xu  
 
 ## Requirements
 - PyTorch 0.2.x
+- GPU is recommended when you wish to train from the scratch.
+- If you have got your trained file(decoder/encoder_epoch_XXX.pth),CPU can also work efficiently.
 
 ## Train
 `
-python train.py -f /path/to/your/images/folder/like/mscoco
+python train.py -f /path/to/your/images_folder
 `  
-Used MS-COCO 2014 Dataset to train.You will get your encoder and decoder .pth file.
+I used MS-COCO 2014 Dataset to train.After training,you will get your encoder and decoder .pth file.
 
 ## Encode and Decode
-### Encode
+### Encode(After Training)
 `
-python encoder.py --model checkpoint/encoder_epoch_00000005.pth --input /path/to/your/example.png --cuda --output ex --iterations 16
+python encoder.py --model checkpoint/encoder_epoch_00000066.pth --input /path_to_your_photo.png --cuda --output ex --iterations 16
 `  
-
+*encoder_epoch_000000XX.pth - this file name depends on your training process.
 This will output binary codes saved in `.npz` format.
+You can set your own 'iterations' number. 
 
-### Decode
+### Decode(After Training)
 `
-python decoder.py --model checkpoint/encoder_epoch_00000005.pth --input /path/to/your/example.npz --cuda --output /path/to/output/folder
+python decoder.py --model checkpoint/decoder_epoch_00000066.pth --input /path_to_your_photo.npz --cuda --output /path/to/output/folder
 `  
 
 This will output images of different quality levels.
@@ -34,6 +37,7 @@ Using the pictures in test_pic folder.
 ```bash
 bash test/enc_dec.sh
 ```
+*you can also use the python encoder and decoder above.
 
 ### Encode and decode with JPEG (use `convert` from ImageMagick)
 ```bash

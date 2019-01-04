@@ -24,7 +24,7 @@ You can set your own 'iterations' number.
 
 ### Decode(After Training)
 `
-python decoder.py --model checkpoint/decoder_epoch_00000066.pth --input /path_to_your_photo.npz --cuda --output /path/to/output/folder
+python decoder.py --model checkpoint/decoder_epoch_00000066.pth --input /path_to_your_photo.npz --cuda --output /path_to_output_folder
 `  
 
 This will output images of different quality levels.

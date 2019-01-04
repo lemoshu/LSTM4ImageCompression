@@ -1,5 +1,5 @@
 # Image-Compression-based-on-LSTM-network
-*Graduation Project: Image Compression based on LSTM-pytorch implementation  
+*Bachelor Graduation Project: Image Compression based on LSTM-pytorch implementation  
 *Zhe(Jack) Xu  
 
 ## Requirements

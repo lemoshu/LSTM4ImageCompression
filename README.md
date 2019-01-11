@@ -63,5 +63,3 @@ Network Outline
 - `modules/conv_rnn.py`: ConvLSTM module.
 - `functions/sign.py`: Forward and backward for binary quantization.
 
-## Official Repo
-https://github.com/tensorflow/models/tree/master/compression

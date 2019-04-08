@@ -57,8 +57,8 @@ Network Outline
 ## Result
 `Rate:192:1`
 ![result](resultpic/result1.jpg)
-![result](resultpic/result2.png)
-![result](resultpic/result3.png)
+![result](resultpic/result1_.png)
+![result](resultpic/result2_.png)
 
 
 ## What's inside

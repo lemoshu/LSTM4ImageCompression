@@ -55,7 +55,7 @@ Network Outline
 ![Network](networkpic.jpg)
 
 ## Result
-![result](resultpic/result1)
+![result](resultpic/result1.jpg)
 
 
 ## What's inside

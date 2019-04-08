@@ -54,6 +54,10 @@ Network Outline
 
 ![Network](networkpic.jpg)
 
+## Result
+![result](resultpic/result1)
+
+
 ## What's inside
 - `train.py`: Main program for training.
 - `encoder.py` and `decoder.py`: Encoder and decoder.

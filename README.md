@@ -57,9 +57,7 @@ Network Outline
 ## Result
 `Rate:192:1`
 ![result](resultpic/result1.jpg)
-`MS-SSIM`
 ![result](resultpic/result2.png)
-`PSNR`
 ![result](resultpic/result3.png)
 
 

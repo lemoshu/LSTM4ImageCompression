@@ -3,7 +3,7 @@
 *Zhe(Jack) Xu  
 
 ## Requirements
-- PyTorch 0.2.x
+- PyTorch 0.4.x
 - GPU is recommended when you wish to train from the scratch.
 - If you have got your trained file(decoder/encoder_epoch_XXX.pth),CPU can also work efficiently.
 
